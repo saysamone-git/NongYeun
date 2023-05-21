@@ -29,357 +29,350 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(management_data));
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.btuser = new System.Windows.Forms.Button();
-            this.btAddress = new System.Windows.Forms.Button();
-            this.btPay = new System.Windows.Forms.Button();
-            this.btTeachercourse = new System.Windows.Forms.Button();
-            this.btSubject = new System.Windows.Forms.Button();
-            this.btTeacherRoom = new System.Windows.Forms.Button();
-            this.btClassRoom = new System.Windows.Forms.Button();
-            this.btParent = new System.Windows.Forms.Button();
-            this.btTeacher = new System.Windows.Forms.Button();
-            this.btStudent = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.panelContainer = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.btYear = new System.Windows.Forms.Button();
-            this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.SuspendLayout();
+            panel1 = new Panel();
+            btYear = new Button();
+            btuser = new Button();
+            btAddress = new Button();
+            btPay = new Button();
+            btTeachercourse = new Button();
+            btSubject = new Button();
+            btTeacherRoom = new Button();
+            btClassRoom = new Button();
+            btParent = new Button();
+            btTeacher = new Button();
+            btStudent = new Button();
+            panel2 = new Panel();
+            button14 = new Button();
+            button13 = new Button();
+            button12 = new Button();
+            button11 = new Button();
+            pictureBox1 = new PictureBox();
+            label1 = new Label();
+            label2 = new Label();
+            dataGridView1 = new DataGridView();
+            panelContainer = new Panel();
+            label3 = new Label();
+            comboBox1 = new ComboBox();
+            label4 = new Label();
+            textBox1 = new TextBox();
+            panel1.SuspendLayout();
+            panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.btYear);
-            this.panel1.Controls.Add(this.btuser);
-            this.panel1.Controls.Add(this.btAddress);
-            this.panel1.Controls.Add(this.btPay);
-            this.panel1.Controls.Add(this.btTeachercourse);
-            this.panel1.Controls.Add(this.btSubject);
-            this.panel1.Controls.Add(this.btTeacherRoom);
-            this.panel1.Controls.Add(this.btClassRoom);
-            this.panel1.Controls.Add(this.btParent);
-            this.panel1.Controls.Add(this.btTeacher);
-            this.panel1.Controls.Add(this.btStudent);
-            this.panel1.Location = new System.Drawing.Point(2, 79);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(164, 603);
-            this.panel1.TabIndex = 0;
-            // 
-            // btuser
-            // 
-            this.btuser.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btuser.Font = new System.Drawing.Font("Saysettha OT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btuser.Location = new System.Drawing.Point(14, 18);
-            this.btuser.Name = "btuser";
-            this.btuser.Size = new System.Drawing.Size(135, 38);
-            this.btuser.TabIndex = 0;
-            this.btuser.Text = "ຜູ້ໃຊ້ລະບົບ";
-            this.btuser.UseVisualStyleBackColor = true;
-            this.btuser.Click += new System.EventHandler(this.button10_Click);
-            // 
-            // btAddress
-            // 
-            this.btAddress.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btAddress.Font = new System.Drawing.Font("Saysettha OT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btAddress.Location = new System.Drawing.Point(59, 534);
-            this.btAddress.Name = "btAddress";
-            this.btAddress.Size = new System.Drawing.Size(63, 34);
-            this.btAddress.TabIndex = 9;
-            this.btAddress.Text = "ທີ່ຢູ່";
-            this.btAddress.UseVisualStyleBackColor = true;
-            // 
-            // btPay
-            // 
-            this.btPay.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btPay.Font = new System.Drawing.Font("Saysettha OT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btPay.Location = new System.Drawing.Point(52, 490);
-            this.btPay.Name = "btPay";
-            this.btPay.Size = new System.Drawing.Size(75, 31);
-            this.btPay.TabIndex = 8;
-            this.btPay.Text = "ຄ່າຮຽນ";
-            this.btPay.UseVisualStyleBackColor = true;
-            // 
-            // btTeachercourse
-            // 
-            this.btTeachercourse.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btTeachercourse.Font = new System.Drawing.Font("Saysettha OT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btTeachercourse.Location = new System.Drawing.Point(20, 77);
-            this.btTeachercourse.Name = "btTeachercourse";
-            this.btTeachercourse.Size = new System.Drawing.Size(129, 42);
-            this.btTeachercourse.TabIndex = 1;
-            this.btTeachercourse.Text = "ຄູປະຈຳວິຊາ";
-            this.btTeachercourse.UseVisualStyleBackColor = true;
-            this.btTeachercourse.Click += new System.EventHandler(this.button7_Click);
-            // 
-            // btSubject
-            // 
-            this.btSubject.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btSubject.Font = new System.Drawing.Font("Saysettha OT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btSubject.Location = new System.Drawing.Point(46, 390);
-            this.btSubject.Name = "btSubject";
-            this.btSubject.Size = new System.Drawing.Size(83, 31);
-            this.btSubject.TabIndex = 7;
-            this.btSubject.Text = "ວິຊາຮຽນ";
-            this.btSubject.UseVisualStyleBackColor = true;
-            // 
-            // btTeacherRoom
-            // 
-            this.btTeacherRoom.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btTeacherRoom.Font = new System.Drawing.Font("Saysettha OT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btTeacherRoom.Location = new System.Drawing.Point(24, 137);
-            this.btTeacherRoom.Name = "btTeacherRoom";
-            this.btTeacherRoom.Size = new System.Drawing.Size(123, 35);
-            this.btTeacherRoom.TabIndex = 2;
-            this.btTeacherRoom.Text = "ຄູປະຈຳຫ້ອງ";
-            this.btTeacherRoom.UseVisualStyleBackColor = true;
-            this.btTeacherRoom.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // btClassRoom
-            // 
-            this.btClassRoom.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btClassRoom.Font = new System.Drawing.Font("Saysettha OT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btClassRoom.Location = new System.Drawing.Point(34, 240);
-            this.btClassRoom.Name = "btClassRoom";
-            this.btClassRoom.Size = new System.Drawing.Size(106, 35);
-            this.btClassRoom.TabIndex = 4;
-            this.btClassRoom.Text = "ຫ້ອງຮຽນ";
-            this.btClassRoom.UseVisualStyleBackColor = true;
-            // 
-            // btParent
-            // 
-            this.btParent.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btParent.Font = new System.Drawing.Font("Saysettha OT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btParent.Location = new System.Drawing.Point(29, 188);
-            this.btParent.Name = "btParent";
-            this.btParent.Size = new System.Drawing.Size(117, 35);
-            this.btParent.TabIndex = 3;
-            this.btParent.Text = "ຜູ້ປົກຄອງ";
-            this.btParent.UseVisualStyleBackColor = true;
-            this.btParent.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // btTeacher
-            // 
-            this.btTeacher.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btTeacher.Font = new System.Drawing.Font("Saysettha OT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btTeacher.Location = new System.Drawing.Point(38, 290);
-            this.btTeacher.Name = "btTeacher";
-            this.btTeacher.Size = new System.Drawing.Size(94, 36);
-            this.btTeacher.TabIndex = 5;
-            this.btTeacher.Text = "ອາຈານ";
-            this.btTeacher.UseVisualStyleBackColor = true;
-            // 
-            // btStudent
-            // 
-            this.btStudent.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btStudent.Font = new System.Drawing.Font("Saysettha OT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btStudent.Location = new System.Drawing.Point(41, 341);
-            this.btStudent.Name = "btStudent";
-            this.btStudent.Size = new System.Drawing.Size(88, 34);
-            this.btStudent.TabIndex = 6;
-            this.btStudent.Text = "ນັກຮຽນ";
-            this.btStudent.UseVisualStyleBackColor = true;
-            this.btStudent.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.button14);
-            this.panel2.Controls.Add(this.button13);
-            this.panel2.Controls.Add(this.button12);
-            this.panel2.Controls.Add(this.button11);
-            this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Location = new System.Drawing.Point(0, 1);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1295, 42);
-            this.panel2.TabIndex = 1;
-            // 
-            // button14
-            // 
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button14.Font = new System.Drawing.Font("Saysettha OT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button14.Location = new System.Drawing.Point(1156, 5);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(122, 33);
-            this.button14.TabIndex = 7;
-            this.button14.Text = "ອອກຈາກລະບົບ";
-            this.button14.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button14.UseVisualStyleBackColor = true;
-            // 
-            // button13
-            // 
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button13.Font = new System.Drawing.Font("Saysettha OT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button13.Location = new System.Drawing.Point(1018, 6);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(122, 32);
-            this.button13.TabIndex = 6;
-            this.button13.Text = "ລາຍງານ";
-            this.button13.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button13.UseVisualStyleBackColor = true;
-            // 
-            // button12
-            // 
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button12.Font = new System.Drawing.Font("Saysettha OT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button12.Location = new System.Drawing.Point(868, 3);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(126, 32);
-            this.button12.TabIndex = 5;
-            this.button12.Text = "ປະເມີນຜົນ";
-            this.button12.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button12.UseVisualStyleBackColor = true;
-            // 
-            // button11
-            // 
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button11.Font = new System.Drawing.Font("Saysettha OT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button11.Location = new System.Drawing.Point(732, 6);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(111, 32);
-            this.button11.TabIndex = 4;
-            this.button11.Text = "ລົງທະບຽນ";
-            this.button11.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button11.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(13, 9);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(27, 25);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Tiktok Regular", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(39, 14);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(90, 18);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "ໂຮງຮຽນ ມຕ ໜອຍືນ";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Saysettha OT", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(647, 45);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(176, 34);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "ຈັດການຂໍ້ມູນພື້ນຖານ";
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(172, 99);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 25;
-            this.dataGridView1.Size = new System.Drawing.Size(1123, 281);
-            this.dataGridView1.TabIndex = 3;
-            // 
-            // panelContainer
-            // 
-            this.panelContainer.Location = new System.Drawing.Point(172, 386);
-            this.panelContainer.Name = "panelContainer";
-            this.panelContainer.Size = new System.Drawing.Size(933, 296);
-            this.panelContainer.TabIndex = 4;
-            this.panelContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContainer_Paint);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Saysettha OT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(405, 66);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(71, 29);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "ສົກຮຽນ :";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.Font = new System.Drawing.Font("Saysettha OT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "2020-2021",
-            "2021-2022",
-            "2022-2023",
-            "2023-2024",
-            "2024-2025",
-            "2025-2026"});
-            this.comboBox1.Location = new System.Drawing.Point(474, 66);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 32);
-            this.comboBox1.TabIndex = 6;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Saysettha OT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(956, 67);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(65, 29);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "ຄົ້ນຫາ :";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Saysettha OT", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.Location = new System.Drawing.Point(1027, 63);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(194, 35);
-            this.textBox1.TabIndex = 8;
+            panel1.Controls.Add(btYear);
+            panel1.Controls.Add(btuser);
+            panel1.Controls.Add(btAddress);
+            panel1.Controls.Add(btPay);
+            panel1.Controls.Add(btTeachercourse);
+            panel1.Controls.Add(btSubject);
+            panel1.Controls.Add(btTeacherRoom);
+            panel1.Controls.Add(btClassRoom);
+            panel1.Controls.Add(btParent);
+            panel1.Controls.Add(btTeacher);
+            panel1.Controls.Add(btStudent);
+            panel1.Location = new Point(2, 99);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(164, 583);
+            panel1.TabIndex = 0;
             // 
             // btYear
             // 
-            this.btYear.Font = new System.Drawing.Font("Saysettha OT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btYear.Location = new System.Drawing.Point(49, 441);
-            this.btYear.Name = "btYear";
-            this.btYear.Size = new System.Drawing.Size(76, 31);
-            this.btYear.TabIndex = 10;
-            this.btYear.Text = "ສົກຮຽນ";
-            this.btYear.UseVisualStyleBackColor = true;
+            btYear.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btYear.Location = new Point(49, 441);
+            btYear.Name = "btYear";
+            btYear.Size = new Size(76, 31);
+            btYear.TabIndex = 10;
+            btYear.Text = "ສົກຮຽນ";
+            btYear.UseVisualStyleBackColor = true;
+            // 
+            // btuser
+            // 
+            btuser.FlatStyle = FlatStyle.System;
+            btuser.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btuser.Location = new Point(14, 18);
+            btuser.Name = "btuser";
+            btuser.Size = new Size(135, 38);
+            btuser.TabIndex = 0;
+            btuser.Text = "ຜູ້ໃຊ້ລະບົບ";
+            btuser.UseVisualStyleBackColor = true;
+            btuser.Click += button10_Click;
+            // 
+            // btAddress
+            // 
+            btAddress.FlatStyle = FlatStyle.System;
+            btAddress.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btAddress.Location = new Point(59, 534);
+            btAddress.Name = "btAddress";
+            btAddress.Size = new Size(63, 34);
+            btAddress.TabIndex = 9;
+            btAddress.Text = "ທີ່ຢູ່";
+            btAddress.UseVisualStyleBackColor = true;
+            // 
+            // btPay
+            // 
+            btPay.FlatStyle = FlatStyle.System;
+            btPay.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btPay.Location = new Point(52, 490);
+            btPay.Name = "btPay";
+            btPay.Size = new Size(75, 31);
+            btPay.TabIndex = 8;
+            btPay.Text = "ຄ່າຮຽນ";
+            btPay.UseVisualStyleBackColor = true;
+            // 
+            // btTeachercourse
+            // 
+            btTeachercourse.FlatStyle = FlatStyle.System;
+            btTeachercourse.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btTeachercourse.Location = new Point(20, 77);
+            btTeachercourse.Name = "btTeachercourse";
+            btTeachercourse.Size = new Size(129, 42);
+            btTeachercourse.TabIndex = 1;
+            btTeachercourse.Text = "ຄູປະຈຳວິຊາ";
+            btTeachercourse.UseVisualStyleBackColor = true;
+            btTeachercourse.Click += button7_Click;
+            // 
+            // btSubject
+            // 
+            btSubject.FlatStyle = FlatStyle.System;
+            btSubject.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btSubject.Location = new Point(46, 390);
+            btSubject.Name = "btSubject";
+            btSubject.Size = new Size(83, 31);
+            btSubject.TabIndex = 7;
+            btSubject.Text = "ວິຊາຮຽນ";
+            btSubject.UseVisualStyleBackColor = true;
+            // 
+            // btTeacherRoom
+            // 
+            btTeacherRoom.FlatStyle = FlatStyle.System;
+            btTeacherRoom.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btTeacherRoom.Location = new Point(24, 137);
+            btTeacherRoom.Name = "btTeacherRoom";
+            btTeacherRoom.Size = new Size(123, 35);
+            btTeacherRoom.TabIndex = 2;
+            btTeacherRoom.Text = "ຄູປະຈຳຫ້ອງ";
+            btTeacherRoom.UseVisualStyleBackColor = true;
+            btTeacherRoom.Click += button5_Click;
+            // 
+            // btClassRoom
+            // 
+            btClassRoom.FlatStyle = FlatStyle.System;
+            btClassRoom.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btClassRoom.Location = new Point(34, 240);
+            btClassRoom.Name = "btClassRoom";
+            btClassRoom.Size = new Size(106, 35);
+            btClassRoom.TabIndex = 4;
+            btClassRoom.Text = "ຫ້ອງຮຽນ";
+            btClassRoom.UseVisualStyleBackColor = true;
+            // 
+            // btParent
+            // 
+            btParent.FlatStyle = FlatStyle.System;
+            btParent.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btParent.Location = new Point(29, 188);
+            btParent.Name = "btParent";
+            btParent.Size = new Size(117, 35);
+            btParent.TabIndex = 3;
+            btParent.Text = "ຜູ້ປົກຄອງ";
+            btParent.UseVisualStyleBackColor = true;
+            btParent.Click += button3_Click;
+            // 
+            // btTeacher
+            // 
+            btTeacher.FlatStyle = FlatStyle.System;
+            btTeacher.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btTeacher.Location = new Point(38, 290);
+            btTeacher.Name = "btTeacher";
+            btTeacher.Size = new Size(94, 36);
+            btTeacher.TabIndex = 5;
+            btTeacher.Text = "ອາຈານ";
+            btTeacher.UseVisualStyleBackColor = true;
+            // 
+            // btStudent
+            // 
+            btStudent.FlatStyle = FlatStyle.System;
+            btStudent.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btStudent.Location = new Point(41, 341);
+            btStudent.Name = "btStudent";
+            btStudent.Size = new Size(88, 34);
+            btStudent.TabIndex = 6;
+            btStudent.Text = "ນັກຮຽນ";
+            btStudent.UseVisualStyleBackColor = true;
+            btStudent.Click += button1_Click;
+            // 
+            // panel2
+            // 
+            panel2.Controls.Add(button14);
+            panel2.Controls.Add(button13);
+            panel2.Controls.Add(button12);
+            panel2.Controls.Add(button11);
+            panel2.Controls.Add(pictureBox1);
+            panel2.Controls.Add(label1);
+            panel2.Location = new Point(0, 1);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(1295, 42);
+            panel2.TabIndex = 1;
+            // 
+            // button14
+            // 
+            button14.FlatStyle = FlatStyle.System;
+            button14.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            button14.Location = new Point(1156, 5);
+            button14.Name = "button14";
+            button14.Size = new Size(122, 33);
+            button14.TabIndex = 7;
+            button14.Text = "ອອກຈາກລະບົບ";
+            button14.TextAlign = ContentAlignment.TopCenter;
+            button14.UseVisualStyleBackColor = true;
+            // 
+            // button13
+            // 
+            button13.FlatStyle = FlatStyle.System;
+            button13.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            button13.Location = new Point(1018, 6);
+            button13.Name = "button13";
+            button13.Size = new Size(122, 32);
+            button13.TabIndex = 6;
+            button13.Text = "ລາຍງານ";
+            button13.TextAlign = ContentAlignment.TopCenter;
+            button13.UseVisualStyleBackColor = true;
+            // 
+            // button12
+            // 
+            button12.FlatStyle = FlatStyle.System;
+            button12.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            button12.Location = new Point(868, 3);
+            button12.Name = "button12";
+            button12.Size = new Size(126, 32);
+            button12.TabIndex = 5;
+            button12.Text = "ປະເມີນຜົນ";
+            button12.TextAlign = ContentAlignment.TopCenter;
+            button12.UseVisualStyleBackColor = true;
+            // 
+            // button11
+            // 
+            button11.FlatStyle = FlatStyle.System;
+            button11.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            button11.Location = new Point(732, 6);
+            button11.Name = "button11";
+            button11.Size = new Size(111, 32);
+            button11.TabIndex = 4;
+            button11.Text = "ລົງທະບຽນ";
+            button11.TextAlign = ContentAlignment.TopCenter;
+            button11.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(13, 9);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(27, 25);
+            pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
+            pictureBox1.TabIndex = 3;
+            pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Microsoft Sans Serif", 8.249999F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(39, 14);
+            label1.Name = "label1";
+            label1.Size = new Size(111, 13);
+            label1.TabIndex = 2;
+            label1.Text = "ໂຮງຮຽນ ມຕ ໜອຍືນ";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point);
+            label2.Location = new Point(647, 45);
+            label2.Name = "label2";
+            label2.Size = new Size(149, 24);
+            label2.TabIndex = 2;
+            label2.Text = "ຈັດການຂໍ້ມູນພື້ນຖານ";
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(172, 99);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowTemplate.Height = 25;
+            dataGridView1.Size = new Size(1123, 281);
+            dataGridView1.TabIndex = 3;
+            // 
+            // panelContainer
+            // 
+            panelContainer.Location = new Point(172, 386);
+            panelContainer.Name = "panelContainer";
+            panelContainer.Size = new Size(1123, 296);
+            panelContainer.TabIndex = 4;
+            panelContainer.Paint += panelContainer_Paint;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.Location = new Point(405, 66);
+            label3.Name = "label3";
+            label3.Size = new Size(54, 20);
+            label3.TabIndex = 5;
+            label3.Text = "ສົກຮຽນ :";
+            // 
+            // comboBox1
+            // 
+            comboBox1.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Items.AddRange(new object[] { "2020-2021", "2021-2022", "2022-2023", "2023-2024", "2024-2025", "2025-2026" });
+            comboBox1.Location = new Point(474, 66);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(121, 24);
+            comboBox1.TabIndex = 6;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.Location = new Point(956, 67);
+            label4.Name = "label4";
+            label4.Size = new Size(46, 20);
+            label4.TabIndex = 7;
+            label4.Text = "ຄົ້ນຫາ :";
+            // 
+            // textBox1
+            // 
+            textBox1.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox1.Location = new Point(1027, 63);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(194, 26);
+            textBox1.TabIndex = 8;
             // 
             // management_data
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1307, 694);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.panelContainer);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
-            this.Name = "management_data";
-            this.Text = "management_data";
-            this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(1307, 694);
+            Controls.Add(textBox1);
+            Controls.Add(label4);
+            Controls.Add(comboBox1);
+            Controls.Add(label3);
+            Controls.Add(panelContainer);
+            Controls.Add(dataGridView1);
+            Controls.Add(label2);
+            Controls.Add(panel2);
+            Controls.Add(panel1);
+            Name = "management_data";
+            Text = "management_data";
+            panel1.ResumeLayout(false);
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

@@ -112,3 +112,44 @@ D:\ບົດຮຽນ ວິຊາຕ່າງໆ\xampp\Visual Stedeo 2022\NongY
 D:\ບົດຮຽນ ວິຊາຕ່າງໆ\xampp\Visual Stedeo 2022\NongYuen\NongYuen\obj\Debug\net6.0-windows\NongYuen.genruntimeconfig.cache
 D:\ບົດຮຽນ ວິຊາຕ່າງໆ\xampp\Visual Stedeo 2022\NongYuen\NongYuen\obj\Debug\net6.0-windows\ref\NongYuen.dll
 D:\ບົດຮຽນ ວິຊາຕ່າງໆ\xampp\Visual Stedeo 2022\NongYuen\NongYuen\obj\Debug\net6.0-windows\NongYuen.View.UserAdmin.resources
+C:\Users\HP\source\repos\NongYeun\NongYuen\bin\Debug\net6.0-windows\NongYuen.exe
+C:\Users\HP\source\repos\NongYeun\NongYuen\bin\Debug\net6.0-windows\NongYuen.deps.json
+C:\Users\HP\source\repos\NongYeun\NongYuen\bin\Debug\net6.0-windows\NongYuen.runtimeconfig.json
+C:\Users\HP\source\repos\NongYeun\NongYuen\bin\Debug\net6.0-windows\NongYuen.dll
+C:\Users\HP\source\repos\NongYeun\NongYuen\bin\Debug\net6.0-windows\NongYuen.pdb
+C:\Users\HP\source\repos\NongYeun\NongYuen\bin\Debug\net6.0-windows\FontAwesome.Sharp.dll
+C:\Users\HP\source\repos\NongYeun\NongYuen\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\HP\source\repos\NongYeun\NongYuen\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\HP\source\repos\NongYeun\NongYuen\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\HP\source\repos\NongYeun\NongYuen\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\HP\source\repos\NongYeun\NongYuen\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\HP\source\repos\NongYeun\NongYuen\bin\Debug\net6.0-windows\ZstdNet.dll
+C:\Users\HP\source\repos\NongYeun\NongYuen\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+C:\Users\HP\source\repos\NongYeun\NongYuen\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\HP\source\repos\NongYeun\NongYuen\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\HP\source\repos\NongYeun\NongYuen\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\HP\source\repos\NongYeun\NongYuen\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\HP\source\repos\NongYeun\NongYuen\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\HP\source\repos\NongYeun\NongYuen\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\HP\source\repos\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.Properties.Resources.resources
+C:\Users\HP\source\repos\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.Home.resources
+C:\Users\HP\source\repos\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.LogIn.resources
+C:\Users\HP\source\repos\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.View.MainForm.resources
+C:\Users\HP\source\repos\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.View.management_data.resources
+C:\Users\HP\source\repos\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.payment.resources
+C:\Users\HP\source\repos\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.View.StudentMenuCtr.resources
+C:\Users\HP\source\repos\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.View.StudentOptCtr.resources
+C:\Users\HP\source\repos\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.View.UserAdmin.resources
+C:\Users\HP\source\repos\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.csproj.GenerateResource.cache
+C:\Users\HP\source\repos\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.AssemblyInfo.cs
+C:\Users\HP\source\repos\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.csproj.CopyComplete
+C:\Users\HP\source\repos\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.dll
+C:\Users\HP\source\repos\NongYeun\NongYuen\obj\Debug\net6.0-windows\refint\NongYuen.dll
+C:\Users\HP\source\repos\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.pdb
+C:\Users\HP\source\repos\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.genruntimeconfig.cache
+C:\Users\HP\source\repos\NongYeun\NongYuen\obj\Debug\net6.0-windows\ref\NongYuen.dll
+C:\Users\HP\source\repos\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.View.RegisterForm.resources

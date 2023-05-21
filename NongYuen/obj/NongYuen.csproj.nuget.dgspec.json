@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ບົດຮຽນ ວິຊາຕ່າງໆ\\xampp\\Visual Stedeo 2022\\NongYuen\\NongYuen\\NongYuen.csproj": {}
+    "C:\\Users\\HP\\source\\repos\\NongYeun\\NongYuen\\NongYuen.csproj": {}
   },
   "projects": {
-    "D:\\ບົດຮຽນ ວິຊາຕ່າງໆ\\xampp\\Visual Stedeo 2022\\NongYuen\\NongYuen\\NongYuen.csproj": {
+    "C:\\Users\\HP\\source\\repos\\NongYeun\\NongYuen\\NongYuen.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ບົດຮຽນ ວິຊາຕ່າງໆ\\xampp\\Visual Stedeo 2022\\NongYuen\\NongYuen\\NongYuen.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\NongYeun\\NongYuen\\NongYuen.csproj",
         "projectName": "NongYuen",
-        "projectPath": "D:\\ບົດຮຽນ ວິຊາຕ່າງໆ\\xampp\\Visual Stedeo 2022\\NongYuen\\NongYuen\\NongYuen.csproj",
-        "packagesPath": "C:\\Users\\Saysamone\\.nuget\\packages\\",
-        "outputPath": "D:\\ບົດຮຽນ ວິຊາຕ່າງໆ\\xampp\\Visual Stedeo 2022\\NongYuen\\NongYuen\\obj\\",
+        "projectPath": "C:\\Users\\HP\\source\\repos\\NongYeun\\NongYuen\\NongYuen.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\source\\repos\\NongYeun\\NongYuen\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Saysamone\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,6 +40,10 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "dependencies": {
+            "FontAwesome.Sharp": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
             "MySql.Data": {
               "target": "Package",
               "version": "[8.0.31, )"
@@ -72,7 +72,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
