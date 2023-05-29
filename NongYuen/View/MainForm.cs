@@ -37,5 +37,10 @@ namespace NongYuen.View
         {
             this.Close();
         }
+
+        private void iconButton5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

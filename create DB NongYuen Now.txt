@@ -1,0 +1,178 @@
+create table tbusers(
+   userID varchar(10) PRIMARY KEY Not null,
+   username varchar(50) not null UNIQUE KEY,
+   password varchar(20) not null,
+   tchID varchar(10) not null,
+   status varchar(10) not null ,
+   lastlogin timeStamp DEFAULT CURRENT_TIMESTAMP,
+    regdate timeStamp DEFAULT CURRENT_TIMESTAMp
+)ENGINE=INNODB DEFAULT charSet=utf8;
+INSERT INTO `tbusers` (`userID`, `username`, `password`, `tchID`, `status`, `lastlogin`, `regdate`) VALUES ('US0003', 'THR001', 't443322', 'tch0003', 'ຄູປະຈຳຫ້ອງ', current_timeStamp(), current_timeStamp());
+
+CREATE TABLE tbstudent(
+    stID varchar(10) NOT null PRIMARY KEY,
+    parrenID int NOT null ,
+    stgender varchar(5) not null,
+    stname varchar(50) not null,
+    stsurname varchar(50)not null,
+    stpicture blob null,
+    stdob date not null,
+    sttel varchar(20) null,
+    stemail varchar(50) null,
+    stethnic varchar(50)not null,
+    streligion varchar(50) not null,
+    birthvillageID int not null,
+    currenvillageID int not null,
+    isdelete int not null
+)ENGINE=INNODB DEFAULT charSet =utf8;
+INSERT INTO `tbstudent` (`stID`, `parrenID`, `stgender`, `stname`, `stsurname`, `stpicture`, `stdob`, `sttel`, `stemail`, `stethnic`, `streligion`, `birthvillageID`, `currenvillageID`, `iSdelete`) VALUES ('St001', '110', 'ຊາຍ', 'ສູກສະໝອນ', 'ວິໄລພອນ', NULL, '10-20-2000', NULL, NULL, 'ຕຣຽງ', 'ຜີ', '33', '13', '11');
+
+CREATE table tbregister(
+    regID varchar(10) PRIMARY KEY Not null,
+    stID varchar(10) NOT null,
+    userID varchar(10) NOT null,
+    sttypeID int not null,
+    year varchar(20) NOT null,
+    level varchar(10) NOT null,
+    regiSterDate date NOT null,
+    ispaid bit NOT null,
+    paid int NOT null,
+    owe int NOT null,
+    isowe bit NOT null,
+    isdelete bit NOT null
+)ENGINE=INNODB DEFAULT charSet =utf8;
+
+CREATE table tbpayment(
+    paymentID int PRIMARY KEY NOT null,
+    regID varchar(10) NOT null,
+    userID int(10) NOT null,
+    sttypeID int(5) not null,
+    paymentdate date NOT null,
+    oldowe int NOT null,
+    pay int NOT null,
+    status varchar(50) NOT null
+)ENGINE=INNODB DEFAULT charSet =utf8;
+
+CREATE TABLE tbstudentrype(
+    sttypeID int PRIMARY KEY AUTO_INCREMENT,
+    regID varchar(10) NOT null,
+    sttypeName varchar(20) NOT null,
+    totalcost int NOT null
+)ENGINE=INNODB DEFAULT charSet =utf8;
+
+CREATE TABLE tbparrent(
+    parrentID int PRIMARY KEY AUTO_INCREMENT,
+    parname varchar(50) NOT null,
+    parsurname varchar(50) NOT null,
+    gender varchar(5) NOT null,
+    gelationship varchar(20) NOT null,
+    tel varchar(20) null,
+    villageID int NOT null,
+    isdelete bit NOT null
+)ENGINE=INNODB DEFAULT charSet =utf8;
+
+CREATE TABLE tbteacher(
+    tchID varchar(10) PRIMARY KEY NOT null,
+    gender varchar(5) NOT null,
+    tchname varchar(50) NOT null,
+    tchsurname varchar(50) NOT null,
+    tchdob date NOT null,
+    tchtel varchar(20) NOT null,
+    tchemail varchar(50) NOT null,
+    tchethnic varchar(50) NOT null,
+    tchreligion varchar(10) NOT null,
+    degree varchar(20) NOT null,
+    major varchar(50) NOT null,
+    villageID int NOT null,
+    isdelete bit NOT null
+)ENGINE=INNODB DEFAULT charSet =utf8;
+
+CREATE TABLE  tbclassroom(
+    classID int PRIMARY KEY AUTO_INCREMENT,
+    classname varchar(5) NOT null,
+    level varchar(5) NOT null,
+    cotain int NOT null,
+    isdelete bit NOT null
+)ENGINE=INNODB DEFAULT charSet =utf8;
+
+CREATE TABLE tbsubjectS(
+    subjectsID varchar(10) PRIMARY KEY NOT null,
+    subname varchar(50) NOT null,
+    level varchar(5) NOT null,
+    isdelete bit NOT null
+)ENGINE=INNODB DEFAULT charSet =utf8;
+
+CREATE TABLE tbteach(
+    teachID varchar(10) PRIMARY KEY Not null,
+    subjectID varchar(10) NOT null,
+    tchID varchar(10) NOT null,
+    classID int NOT null,
+    year varchar(10) NOT null,
+    isdelete bit NOT null
+)ENGINE=INNODB DEFAULT charSet =utf8;
+
+CREATE TABLE tbteacherroom(
+    tcrID int PRIMARY KEY AUTO_INCREMENT,
+    classID int NOT null,
+    tchID varchar(10) NOT null,
+    year varchar(10) NOT null,
+    isdelete bit NOT null
+)ENGINE=INNODB DEFAULT charSet =utf8;
+
+CREATE TABLE tbprovince(
+    provinceID int PRIMARY KEY NOT null,
+    provincename varchar(50) NOT null,
+    isdelete bit NOT null
+)ENGINE=INNODB DEFAULT charSet =utf8;
+
+CREATE TABLE tbdistrict(
+    districtID int PRIMARY KEY NOT null,
+    diStrictname varchar(50) NOT null,
+    provinceID int NOT null,
+    isdelete bit NOT null
+)ENGINE=INNODB DEFAULT charSet =utf8;
+
+CREATE TABLE tbvillage(
+    villageID int PRIMARY KEY NOT null,
+    villageName varchar(50) NOT null,
+    districtID int NOT null,
+    isdelete bit
+)ENGINE=INNODB DEFAULT charSet =utf8;
+
+CREATE TABLE tbscore(
+    scroreID int PRIMARY KEY NOT null,
+    stID varchar(10) NOT null,
+    classID int NOT null,
+    subjctID varchar(10) NOT null,
+    tchID varchar(10) NOT null,
+    subname varchar(50) NOT null,
+    year varchar(10) NOT null,
+    month varchar(20) NOT null,
+    score float NOT null,
+    isdelete bit NOT null
+)ENGINE=INNODB DEFAULT charSet =utf8;
+
+CREATE TABLE tbabsenceS(
+    absencesID int PRIMARY KEY  AUTO_INCREMENT,
+    stID varchar(10) NOT null,
+    classID int NOT null,
+    year varchar(10) NOT null,
+    month varchar(20) NOT null,
+    absencesamount int NOT null,
+    reasomamount int NOT null
+)ENGINE=INNODB DEFAULT charSet =utf8;
+
+CREATE TABLE tbyear(
+    yearID int PRIMARY KEY AUTO_INCREMENT,
+    yearname varchar(10) NOT null,
+    term int NOT null,
+    manage varchar(10) not null,
+    isdelete  bit NOT null
+)ENGINE=INNODB DEFAULT charSet =utf8;
+
+INSERT INTO `tbsubjects` (`subjectsID`, `subname`, `level`, `isdelete`) VALUES 
+('1MATH', 'ຄະນິດສາດ', 'ມ1', ''), 
+('2MATH', 'ຄະນິດສາດ', 'ມ2', ''),
+('3MATH', 'ຄະນິດສາດ', 'ມ3', ''), 
+('4MATH', 'ຄະນິດສາດ', 'ມ4', '');
+ 

@@ -153,3 +153,97 @@ C:\Users\HP\source\repos\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.pdb
 C:\Users\HP\source\repos\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.genruntimeconfig.cache
 C:\Users\HP\source\repos\NongYeun\NongYuen\obj\Debug\net6.0-windows\ref\NongYuen.dll
 C:\Users\HP\source\repos\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.View.RegisterForm.resources
+C:\Users\DoDO\source\repos\saysamone-git\NongYeun\NongYuen\bin\Debug\net6.0-windows\NongYuen.exe
+C:\Users\DoDO\source\repos\saysamone-git\NongYeun\NongYuen\bin\Debug\net6.0-windows\NongYuen.deps.json
+C:\Users\DoDO\source\repos\saysamone-git\NongYeun\NongYuen\bin\Debug\net6.0-windows\NongYuen.runtimeconfig.json
+C:\Users\DoDO\source\repos\saysamone-git\NongYeun\NongYuen\bin\Debug\net6.0-windows\NongYuen.dll
+C:\Users\DoDO\source\repos\saysamone-git\NongYeun\NongYuen\bin\Debug\net6.0-windows\NongYuen.pdb
+C:\Users\DoDO\source\repos\saysamone-git\NongYeun\NongYuen\bin\Debug\net6.0-windows\FontAwesome.Sharp.dll
+C:\Users\DoDO\source\repos\saysamone-git\NongYeun\NongYuen\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\DoDO\source\repos\saysamone-git\NongYeun\NongYuen\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\DoDO\source\repos\saysamone-git\NongYeun\NongYuen\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\DoDO\source\repos\saysamone-git\NongYeun\NongYuen\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\DoDO\source\repos\saysamone-git\NongYeun\NongYuen\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\DoDO\source\repos\saysamone-git\NongYeun\NongYuen\bin\Debug\net6.0-windows\ZstdNet.dll
+C:\Users\DoDO\source\repos\saysamone-git\NongYeun\NongYuen\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+C:\Users\DoDO\source\repos\saysamone-git\NongYeun\NongYuen\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\DoDO\source\repos\saysamone-git\NongYeun\NongYuen\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\DoDO\source\repos\saysamone-git\NongYeun\NongYuen\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\DoDO\source\repos\saysamone-git\NongYeun\NongYuen\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\DoDO\source\repos\saysamone-git\NongYeun\NongYuen\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\DoDO\source\repos\saysamone-git\NongYeun\NongYuen\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\DoDO\source\repos\saysamone-git\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.csproj.AssemblyReference.cache
+C:\Users\DoDO\source\repos\saysamone-git\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.Properties.Resources.resources
+C:\Users\DoDO\source\repos\saysamone-git\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.Home.resources
+C:\Users\DoDO\source\repos\saysamone-git\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.LogIn.resources
+C:\Users\DoDO\source\repos\saysamone-git\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.View.MainForm.resources
+C:\Users\DoDO\source\repos\saysamone-git\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.View.management_data.resources
+C:\Users\DoDO\source\repos\saysamone-git\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.payment.resources
+C:\Users\DoDO\source\repos\saysamone-git\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.View.RegisterForm.resources
+C:\Users\DoDO\source\repos\saysamone-git\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.View.StudentMenuCtr.resources
+C:\Users\DoDO\source\repos\saysamone-git\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.View.StudentOptCtr.resources
+C:\Users\DoDO\source\repos\saysamone-git\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.View.UserAdmin.resources
+C:\Users\DoDO\source\repos\saysamone-git\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.csproj.GenerateResource.cache
+C:\Users\DoDO\source\repos\saysamone-git\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DoDO\source\repos\saysamone-git\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.AssemblyInfoInputs.cache
+C:\Users\DoDO\source\repos\saysamone-git\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.AssemblyInfo.cs
+C:\Users\DoDO\source\repos\saysamone-git\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.csproj.CoreCompileInputs.cache
+C:\Users\DoDO\source\repos\saysamone-git\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.csproj.CopyComplete
+C:\Users\DoDO\source\repos\saysamone-git\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.dll
+C:\Users\DoDO\source\repos\saysamone-git\NongYeun\NongYuen\obj\Debug\net6.0-windows\refint\NongYuen.dll
+C:\Users\DoDO\source\repos\saysamone-git\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.pdb
+C:\Users\DoDO\source\repos\saysamone-git\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.genruntimeconfig.cache
+C:\Users\DoDO\source\repos\saysamone-git\NongYeun\NongYuen\obj\Debug\net6.0-windows\ref\NongYuen.dll
+C:\Users\DoDO\source\repos\saysamone-git\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.View.student.resources
+F:\Projece NongYuen\NongYeun\NongYuen\bin\Debug\net6.0-windows\NongYuen.exe
+F:\Projece NongYuen\NongYeun\NongYuen\bin\Debug\net6.0-windows\NongYuen.deps.json
+F:\Projece NongYuen\NongYeun\NongYuen\bin\Debug\net6.0-windows\NongYuen.runtimeconfig.json
+F:\Projece NongYuen\NongYeun\NongYuen\bin\Debug\net6.0-windows\NongYuen.dll
+F:\Projece NongYuen\NongYeun\NongYuen\bin\Debug\net6.0-windows\NongYuen.pdb
+F:\Projece NongYuen\NongYeun\NongYuen\bin\Debug\net6.0-windows\FontAwesome.Sharp.dll
+F:\Projece NongYuen\NongYeun\NongYuen\bin\Debug\net6.0-windows\Google.Protobuf.dll
+F:\Projece NongYuen\NongYeun\NongYuen\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+F:\Projece NongYuen\NongYeun\NongYuen\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+F:\Projece NongYuen\NongYeun\NongYuen\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+F:\Projece NongYuen\NongYeun\NongYuen\bin\Debug\net6.0-windows\MySql.Data.dll
+F:\Projece NongYuen\NongYeun\NongYuen\bin\Debug\net6.0-windows\ZstdNet.dll
+F:\Projece NongYuen\NongYeun\NongYuen\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+F:\Projece NongYuen\NongYeun\NongYuen\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+F:\Projece NongYuen\NongYeun\NongYuen\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+F:\Projece NongYuen\NongYeun\NongYuen\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+F:\Projece NongYuen\NongYeun\NongYuen\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+F:\Projece NongYuen\NongYeun\NongYuen\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\Projece NongYuen\NongYeun\NongYuen\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\Projece NongYuen\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.csproj.AssemblyReference.cache
+F:\Projece NongYuen\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.Properties.Resources.resources
+F:\Projece NongYuen\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.LogIn.resources
+F:\Projece NongYuen\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.View.MainForm.resources
+F:\Projece NongYuen\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.View.RegisterForm.resources
+F:\Projece NongYuen\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.View.student.resources
+F:\Projece NongYuen\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.View.StudentMenuCtr.resources
+F:\Projece NongYuen\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.View.StudentOptCtr.resources
+F:\Projece NongYuen\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.csproj.GenerateResource.cache
+F:\Projece NongYuen\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projece NongYuen\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.AssemblyInfoInputs.cache
+F:\Projece NongYuen\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.AssemblyInfo.cs
+F:\Projece NongYuen\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.csproj.CoreCompileInputs.cache
+F:\Projece NongYuen\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.csproj.CopyComplete
+F:\Projece NongYuen\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.dll
+F:\Projece NongYuen\NongYeun\NongYuen\obj\Debug\net6.0-windows\refint\NongYuen.dll
+F:\Projece NongYuen\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.pdb
+F:\Projece NongYuen\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.genruntimeconfig.cache
+F:\Projece NongYuen\NongYeun\NongYuen\obj\Debug\net6.0-windows\ref\NongYuen.dll
+F:\Projece NongYuen\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.View.StudentView.Payment.resources
+F:\Projece NongYuen\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.View.CassroomView.Classroom.resources
+F:\Projece NongYuen\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.View.Teacher.Teacher.resources
+F:\Projece NongYuen\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.View.Teacher.TeacherRoom.resources
+F:\Projece NongYuen\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.View.Teacher.TeacherSubject.resources
+F:\Projece NongYuen\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.View.StudentView.Subject.resources
+F:\Projece NongYuen\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.View.Tuitionfee.StudentTryp.resources
+F:\Projece NongYuen\NongYeun\NongYuen\bin\Debug\net6.0-windows\dje\NongYuen.resources.dll
+F:\Projece NongYuen\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.View.EvaluationView.Absent.resources
+F:\Projece NongYuen\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.View.EvaluationView.FadeClass.resources
+F:\Projece NongYuen\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.View.EvaluationView.Score.resources
+F:\Projece NongYuen\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.View.EvaluationView.Absent.dje.resources
+F:\Projece NongYuen\NongYeun\NongYuen\obj\Debug\net6.0-windows\dje\NongYuen.resources.dll
+F:\Projece NongYuen\NongYeun\NongYuen\obj\Debug\net6.0-windows\NongYuen.View.Reporting.Form1.resources

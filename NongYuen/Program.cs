@@ -1,4 +1,9 @@
 using NongYuen.View;
+using NongYuen.View.CassroomView;
+using NongYuen.View.EvaluationView;
+using NongYuen.View.StudentView;
+using NongYuen.View.Teacher;
+using NongYuen.View.Tuitionfee;
 
 namespace NongYuen
 {
@@ -13,7 +18,7 @@ namespace NongYuen
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new LogIn());
+            Application.Run(new LogIn()) ;
         }
     }
 }

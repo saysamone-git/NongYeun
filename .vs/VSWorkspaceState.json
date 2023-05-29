@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\NongYuen",
+    "\\NongYuen\\View"
   ],
-  "SelectedNode": "\\NongYuen.sln",
+  "SelectedNode": "\\NongYuen\\View\\LogIn.cs",
   "PreviewInSolutionExplorer": false
 }

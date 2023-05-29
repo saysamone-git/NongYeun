@@ -16,5 +16,10 @@ namespace NongYuen.View
         {
             InitializeComponent();
         }
+
+        private void group_payment_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

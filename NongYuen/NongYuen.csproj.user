@@ -1,19 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Compile Update="View\CassroomView\Classroom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\EvaluationView\Absent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\EvaluationView\FadeClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\EvaluationView\Score.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\SubjectViwe\Subject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\StudentView\Payment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\StudentView\student.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="View\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="View\management_data.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="View\LogIn.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="View\Home.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="View\Payment.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="View\StudentView\RegisterForm.cs">
@@ -25,8 +37,17 @@
     <Compile Update="View\StudentView\StudentOptCtr.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="View\UserAdmin.cs">
-      <SubType>UserControl</SubType>
+    <Compile Update="View\Teacher\TeacherSubject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Teacher\TeacherRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Teacher\Teacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\StudentView\StudentTryp.cs">
+      <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
 </Project>

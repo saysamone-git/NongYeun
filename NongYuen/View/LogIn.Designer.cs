@@ -47,11 +47,11 @@
             // 
             label1.AutoSize = true;
             label1.CausesValidation = false;
-            label1.Font = new Font("Noto Sans Lao", 24F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Font = new Font("Microsoft Sans Serif", 24F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = Color.DarkOliveGreen;
             label1.Location = new Point(33, 9);
             label1.Name = "label1";
-            label1.Size = new Size(553, 53);
+            label1.Size = new Size(493, 37);
             label1.TabIndex = 0;
             label1.Text = "ຍີນດີເຂົ້າສູ່ລະບົບບໍລິຫານຈັດການຂໍ້ມູນນັກຮຽນ";
             label1.UseWaitCursor = true;
@@ -71,10 +71,10 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Noto Sans Lao", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             label2.Location = new Point(247, 153);
             label2.Name = "label2";
-            label2.Size = new Size(67, 31);
+            label2.Size = new Size(63, 24);
             label2.TabIndex = 2;
             label2.Text = "ຊື່ຜູ້ໃຊ້ :";
             label2.UseWaitCursor = true;
@@ -82,10 +82,10 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Font = new Font("Noto Sans Lao", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             label3.Location = new Point(220, 213);
             label3.Name = "label3";
-            label3.Size = new Size(102, 31);
+            label3.Size = new Size(95, 24);
             label3.TabIndex = 2;
             label3.Text = "ລະຫັດຜ່ານ :";
             label3.UseWaitCursor = true;
@@ -167,14 +167,15 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Font = new Font("Noto Sans Lao", 24F, FontStyle.Bold, GraphicsUnit.Point);
+            label4.Font = new Font("Microsoft Sans Serif", 24F, FontStyle.Bold, GraphicsUnit.Point);
             label4.ForeColor = Color.DarkOliveGreen;
             label4.Location = new Point(175, 61);
             label4.Name = "label4";
-            label4.Size = new Size(283, 53);
+            label4.Size = new Size(259, 37);
             label4.TabIndex = 0;
             label4.Text = "ໂຮງຮຽນ ມຕ ໜອງຍືນ";
             label4.UseWaitCursor = true;
+            label4.Click += label4_Click;
             // 
             // LogIn
             // 

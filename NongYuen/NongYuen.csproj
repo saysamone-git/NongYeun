@@ -29,4 +29,9 @@
     </EmbeddedResource>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="View\Reporting\" />
+    <Folder Include="View\Tuitionfee\" />
+  </ItemGroup>
+
 </Project>

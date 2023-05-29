@@ -64,7 +64,7 @@
             panel1.Location = new Point(0, 0);
             panel1.Margin = new Padding(3, 4, 3, 4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(187, 833);
+            panel1.Size = new Size(187, 749);
             panel1.TabIndex = 0;
             // 
             // iconButton8
@@ -74,13 +74,13 @@
             iconButton8.Dock = DockStyle.Top;
             iconButton8.FlatAppearance.BorderColor = Color.DarkOliveGreen;
             iconButton8.FlatStyle = FlatStyle.Flat;
-            iconButton8.Font = new Font("Noto Sans Lao", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            iconButton8.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point);
             iconButton8.IconChar = FontAwesome.Sharp.IconChar.SignOutAlt;
             iconButton8.IconColor = Color.Black;
             iconButton8.IconFont = FontAwesome.Sharp.IconFont.Auto;
             iconButton8.IconSize = 35;
             iconButton8.ImageAlign = ContentAlignment.MiddleLeft;
-            iconButton8.Location = new Point(0, 560);
+            iconButton8.Location = new Point(0, 554);
             iconButton8.Name = "iconButton8";
             iconButton8.Size = new Size(187, 52);
             iconButton8.TabIndex = 8;
@@ -95,13 +95,13 @@
             iconButton7.Dock = DockStyle.Top;
             iconButton7.FlatAppearance.BorderColor = Color.DarkOliveGreen;
             iconButton7.FlatStyle = FlatStyle.Flat;
-            iconButton7.Font = new Font("Noto Sans Lao", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            iconButton7.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point);
             iconButton7.IconChar = FontAwesome.Sharp.IconChar.Bitcoin;
             iconButton7.IconColor = Color.Black;
             iconButton7.IconFont = FontAwesome.Sharp.IconFont.Auto;
             iconButton7.IconSize = 35;
             iconButton7.ImageAlign = ContentAlignment.MiddleLeft;
-            iconButton7.Location = new Point(0, 508);
+            iconButton7.Location = new Point(0, 502);
             iconButton7.Name = "iconButton7";
             iconButton7.Size = new Size(187, 52);
             iconButton7.TabIndex = 7;
@@ -114,13 +114,13 @@
             iconButton6.Dock = DockStyle.Top;
             iconButton6.FlatAppearance.BorderColor = Color.DarkOliveGreen;
             iconButton6.FlatStyle = FlatStyle.Flat;
-            iconButton6.Font = new Font("Noto Sans Lao", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            iconButton6.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point);
             iconButton6.IconChar = FontAwesome.Sharp.IconChar.Table;
             iconButton6.IconColor = Color.Black;
             iconButton6.IconFont = FontAwesome.Sharp.IconFont.Auto;
             iconButton6.IconSize = 35;
             iconButton6.ImageAlign = ContentAlignment.MiddleLeft;
-            iconButton6.Location = new Point(0, 456);
+            iconButton6.Location = new Point(0, 450);
             iconButton6.Name = "iconButton6";
             iconButton6.Size = new Size(187, 52);
             iconButton6.TabIndex = 6;
@@ -133,7 +133,7 @@
             iconButton5.Dock = DockStyle.Top;
             iconButton5.FlatAppearance.BorderColor = Color.DarkOliveGreen;
             iconButton5.FlatStyle = FlatStyle.Flat;
-            iconButton5.Font = new Font("Noto Sans Lao", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            iconButton5.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point);
             iconButton5.IconChar = FontAwesome.Sharp.IconChar.Newspaper;
             iconButton5.IconColor = Color.Black;
             iconButton5.IconFont = FontAwesome.Sharp.IconFont.Auto;
@@ -141,10 +141,11 @@
             iconButton5.ImageAlign = ContentAlignment.MiddleLeft;
             iconButton5.Location = new Point(0, 404);
             iconButton5.Name = "iconButton5";
-            iconButton5.Size = new Size(187, 52);
+            iconButton5.Size = new Size(187, 46);
             iconButton5.TabIndex = 5;
             iconButton5.Text = "Report";
             iconButton5.UseVisualStyleBackColor = false;
+            iconButton5.Click += iconButton5_Click;
             // 
             // iconButton4
             // 
@@ -152,7 +153,7 @@
             iconButton4.Dock = DockStyle.Top;
             iconButton4.FlatAppearance.BorderColor = Color.DarkOliveGreen;
             iconButton4.FlatStyle = FlatStyle.Flat;
-            iconButton4.Font = new Font("Noto Sans Lao", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            iconButton4.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point);
             iconButton4.IconChar = FontAwesome.Sharp.IconChar.Person;
             iconButton4.IconColor = Color.Black;
             iconButton4.IconFont = FontAwesome.Sharp.IconFont.Auto;
@@ -171,7 +172,7 @@
             iconButton3.Dock = DockStyle.Top;
             iconButton3.FlatAppearance.BorderColor = Color.DarkOliveGreen;
             iconButton3.FlatStyle = FlatStyle.Flat;
-            iconButton3.Font = new Font("Noto Sans Lao", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            iconButton3.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point);
             iconButton3.IconChar = FontAwesome.Sharp.IconChar.School;
             iconButton3.IconColor = Color.Black;
             iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
@@ -190,7 +191,7 @@
             iconButton2.Dock = DockStyle.Top;
             iconButton2.FlatAppearance.BorderColor = Color.DarkOliveGreen;
             iconButton2.FlatStyle = FlatStyle.Flat;
-            iconButton2.Font = new Font("Noto Sans Lao", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            iconButton2.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point);
             iconButton2.IconChar = FontAwesome.Sharp.IconChar.PersonDress;
             iconButton2.IconColor = Color.Black;
             iconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
@@ -210,7 +211,7 @@
             iconButton1.Dock = DockStyle.Top;
             iconButton1.FlatAppearance.BorderColor = Color.DarkOliveGreen;
             iconButton1.FlatStyle = FlatStyle.Flat;
-            iconButton1.Font = new Font("Noto Sans Lao", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            iconButton1.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point);
             iconButton1.IconChar = FontAwesome.Sharp.IconChar.Dashboard;
             iconButton1.IconColor = Color.Black;
             iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
@@ -248,10 +249,10 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Noto Sans Lao", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             label1.Location = new Point(12, 156);
             label1.Name = "label1";
-            label1.Size = new Size(169, 31);
+            label1.Size = new Size(161, 24);
             label1.TabIndex = 4;
             label1.Text = "ໂຮງຮຽນ ມຕ ໜອງຍືນ";
             // 
@@ -261,7 +262,7 @@
             panel3.Dock = DockStyle.Top;
             panel3.Location = new Point(187, 0);
             panel3.Name = "panel3";
-            panel3.Size = new Size(1210, 49);
+            panel3.Size = new Size(1183, 49);
             panel3.TabIndex = 1;
             // 
             // MainContainer
@@ -269,18 +270,18 @@
             MainContainer.Dock = DockStyle.Fill;
             MainContainer.Location = new Point(187, 49);
             MainContainer.Name = "MainContainer";
-            MainContainer.Size = new Size(1210, 784);
+            MainContainer.Size = new Size(1183, 700);
             MainContainer.TabIndex = 2;
             // 
             // MainForm
             // 
-            AutoScaleDimensions = new SizeF(7F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1397, 833);
+            ClientSize = new Size(1370, 749);
             Controls.Add(MainContainer);
             Controls.Add(panel3);
             Controls.Add(panel1);
-            Font = new Font("Noto Sans Lao", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
             Margin = new Padding(3, 4, 3, 4);
             Name = "MainForm";
             StartPosition = FormStartPosition.CenterScreen;
